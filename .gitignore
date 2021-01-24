@@ -1,10 +1,12 @@
-docs/_build
-*-dist.zip
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
 
-# OS or Editor folders
-.DS_Store
-.idea
+## Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
 
-# Folders to ignore
-bower_components
-node_modules
